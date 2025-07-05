@@ -115,39 +115,6 @@ redux-toolkit-todo/
 2. **Complete a Todo**: Click the checkbox or the todo text to mark it as complete
 3. **Delete a Todo**: Click the delete button (🗑️) to remove a todo
 
-## 🚀 Building for Production
-
-To create a production build:
-
-```bash
-npm run build
-```
-
-The built files will be in the `dist` directory. You can preview the production build locally:
-
-```bash
-npm run preview
-```
-
-## 🌐 Deployment
-
-You can deploy this app to various platforms:
-
-### Vercel
-```bash
-npm i -g vercel
-vercel
-```
-
-### Netlify
-```bash
-npm run build
-# Drag and drop the dist folder to Netlify
-```
-
-### GitHub Pages
-1. Build the project: `npm run build`
-2. Deploy the `dist` folder to GitHub Pages
 
 ## 🤝 Contributing
 
