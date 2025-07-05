@@ -21,13 +21,6 @@ A modern, responsive Todo application built with React, Redux Toolkit, and Tailw
 - **Package Manager**: npm/yarn/pnpm
 
 
-You can check your versions by running:
-```bash
-node --version
-npm --version
-git --version
-```
-
 ## 🚀 Getting Started
 
 ### 1. Clone the Repository
@@ -78,36 +71,6 @@ The application will start running on `http://localhost:5173` (default Vite port
 - `npm run preview` - Preview the production build locally
 - `npm run lint` - Run ESLint to check code quality
 
-## 🏗️ Project Structure
-
-```
-redux-toolkit-todo/
-├── public/
-│   └── vite.svg
-├── src/
-│   ├── app/
-│   │   └── store.js          # Redux store configuration
-│   ├── assets/
-│   │   └── react.svg
-│   ├── components/
-│   │   ├── AddTodo.jsx       # Add todo component
-│   │   └── Todos.jsx         # Todo list component
-│   ├── features/
-│   │   └── todo/
-│   │       └── todoSlice.js  # Todo slice with reducers
-│   ├── App.jsx               # Main app component
-│   ├── App.css               # App styles
-│   ├── index.css             # Global styles with Tailwind
-│   └── main.jsx              # App entry point
-├── index.html                # HTML template
-├── package.json              # Dependencies and scripts
-├── tailwind.config.js        # Tailwind CSS configuration
-├── postcss.config.js         # PostCSS configuration
-├── vite.config.js            # Vite configuration
-└── README.md                 # This file
-```
-
-
 
 ## 📱 Usage
 
@@ -127,7 +90,6 @@ redux-toolkit-todo/
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
-
 
 ---
 
